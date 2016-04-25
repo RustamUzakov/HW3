@@ -1,0 +1,65 @@
+@font-face{
+	font-family: myFont;
+	src: url(../font/hobbit.ttf);
+}
+body{
+	width: 100%;
+	margin: 0 auto;
+	font-family: Bankgothic Lt Bt Light;
+
+}
+
+header{
+		background: url( ../images/ring.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	color: white;
+	
+	
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	background: black;
+	padding: 10px;
+	margin: 10px;
+	width: 10%;
+	text-align: center;
+	border-radius: 10px;
+		
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;	
+
+}
+footer{
+	text-align: center;
+}
+nav ul{
+	background: #999;
+}
+#rings{
+	font-size: 40px;
+	font-family: myFont;
+
+}
+h1{text-align: center;}
+#text{
+	margin: 0 auto;
+	width: 60%;
+	background: rgba(25, 25, 25, 0.6);
+
+}
+nav ul li:hover{
+	background: rgba(25, 25, 25, 0.6);
+}
+.h1{
+	background: rgba(25, 25, 25, 0.6);
+}
+#text a{
+	font-size: 60px;
+}
+
